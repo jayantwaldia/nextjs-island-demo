@@ -6,6 +6,13 @@ import Link from "next/link";
 export default function BasicPage() {
   const sections = [
     {
+      title: "Search (Traditional)",
+      description:
+        "This search component loads all JavaScript upfront with the page. Search functionality is available immediately.",
+      href: "/basic/search",
+      icon: "🔍",
+    },
+    {
       title: "Product Card (Traditional)",
       description:
         "This component loads all JavaScript upfront with the page. All interactive features are available immediately.",
